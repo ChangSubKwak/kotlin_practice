@@ -20,5 +20,13 @@ fun main() {
 //    print(y)
 
     val z2:String? = z1 as? String
-    print(z2)
+    println("z2 = $z2")
+
+    val z3 = null
+    println("z3 = $z3")
+
+//    val z4: String = z3 as String         // Exception occur
+//    val z4: String? = z3 as String        // Exception occur
+    val z4: String? = z3 as? String
+    println("z4 = $z4")
 }
