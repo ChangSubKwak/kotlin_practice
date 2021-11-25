@@ -28,6 +28,7 @@ fun main() {
         println("This is not null")
     }
 
+    obj = null      // obj null 이어도 중간에 프로그램 멈춤 없이 진행됨
     obj?.let {
         println("This is not null --> $it")
     }
