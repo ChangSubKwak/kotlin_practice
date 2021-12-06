@@ -16,6 +16,6 @@ fun callByValue(b: Boolean): Boolean {
 }
 
 val lambda: () -> Boolean = {
-    println("lambda fuinction")
+    println("lambda function")
     true
 }
